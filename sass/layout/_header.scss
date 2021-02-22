@@ -1,0 +1,15 @@
+.header {
+  background-color: $very-light-color;
+  border-bottom: 1px solid $grey-light-background;
+  & > .container {
+    display: flex;
+    justify-content: space-between;
+  }
+  & ul {
+    font-size: 14px;
+    line-height: 1.14;
+  }
+  & nav {
+    letter-spacing: 0.02em;
+  }
+}
