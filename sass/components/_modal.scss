@@ -21,7 +21,7 @@
 
   width: 528px;
   max-height: 581px;
-  background: $very-light-color;
+  background: $second-main-color;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
@@ -82,7 +82,7 @@
     text-transform: capitalize;
     margin: 0 auto;
     background-color: $color-hover_focus;
-    color: $very-light-color;
+    color: $second-main-color;
     border: 1px solid transparent;
     border-radius: 4px;
     cursor: pointer;
@@ -116,7 +116,7 @@
     background-color: $color-hover_focus;
 
     .modal-icon-close-svg {
-      fill: $very-light-color;
+      fill: $second-main-color;
     }
 
     &-svg {

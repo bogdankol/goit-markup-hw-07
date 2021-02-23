@@ -3,7 +3,7 @@
 }
 .footer-text {
   text-transform: uppercase;
-  color: $very-light-color;
+  color: $second-main-color;
   margin-top: 0;
   margin-bottom: 20px;
 }
@@ -31,7 +31,7 @@
   align-items: center;
   border: 1px solid transparent;
   border-radius: 50%;
-  background-color: $semi-black;
+  background-color: $footer-svg-background;
   box-sizing: border-box;
 
   &:hover,

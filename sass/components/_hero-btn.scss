@@ -1,7 +1,7 @@
 .button {
   line-height: 1.87;
   background: $color-hover_focus;
-  color: $very-light-color;
+  color: $second-main-color;
   padding: 10px 30px;
   min-width: 200px;
   max-height: 50px;
@@ -17,7 +17,6 @@
     &:hover,
     &:focus {
       cursor: pointer;
-      outline: none;
       background-color: $modal-submit-button-hover_focus;
       box-shadow: $modal-submit-button-shadow;
     }

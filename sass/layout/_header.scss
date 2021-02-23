@@ -1,6 +1,6 @@
 .header {
-  background-color: $very-light-color;
-  border-bottom: 1px solid $grey-light-background;
+  background-color: $second-main-color;
+  border-bottom: 1px solid $header-border-bottom-line;
   & > .container {
     display: flex;
     justify-content: space-between;

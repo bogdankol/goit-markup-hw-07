@@ -1,5 +1,5 @@
 .footer {
-  background: $dark-background;
+  background: $footer-background;
   padding: 60px 0;
 
   & > .container {
@@ -18,12 +18,12 @@
   }
 
   .social-svg {
-    fill: $very-light-color;
+    fill: $second-main-color;
     display: block;
   }
 }
 
 .footer-svg {
   display: block;
-  fill: $very-light-color;
+  fill: $second-main-color;
 }

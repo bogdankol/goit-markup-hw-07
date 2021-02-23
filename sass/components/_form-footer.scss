@@ -6,7 +6,7 @@
 }
 .footer-label {
   flex-direction: column;
-  color: $very-light-color;
+  color: $second-main-color;
   margin-left: auto;
   margin-right: 12px;
 
@@ -21,7 +21,7 @@
 
 .footer-mail {
   align-items: center;
-  background-color: $dark-background;
+  background-color: $footer-background;
   width: 358px;
   height: 50px;
   padding: 0 16px;
@@ -60,13 +60,12 @@
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
-  color: $very-light-color;
+  color: $second-main-color;
   background-color: $color-hover_focus;
   cursor: pointer;
 
   &:hover,
   &:focus {
-    outline: none;
     background-color: $modal-submit-button-hover_focus;
     box-shadow: 0px 4px 4px $modal-submit-button-shadow;
   }

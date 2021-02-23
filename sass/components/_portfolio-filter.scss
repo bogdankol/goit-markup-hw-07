@@ -13,17 +13,16 @@
   border: 1px solid transparent;
 
   &.button-bc {
-    background: $grey-ld-background;
+    background: $semi-ld-background;
     color: $main-text-color;
 
     &:hover,
     &:focus {
       background: $color-hover_focus;
-      color: $very-light-color;
+      color: $second-main-color;
       cursor: pointer;
       box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
         0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-      outline: none;
     }
   }
 }
